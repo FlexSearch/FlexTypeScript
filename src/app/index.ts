@@ -2,8 +2,8 @@
 
 /// <reference path="../app/partials/main.controller.ts" />
 /// <reference path="../app/components/navbar/navbar.controller.ts" />
-/// <reference path="../app/partials/session.controller.ts" />
-/// <reference path="../app/partials/sessions.controller.ts" />
+/// <reference path="../app/views/sessions/session.controller.ts" />
+/// <reference path="../app/views/sessions/sessions.controller.ts" />
 
 module flexportal {
   'use strict';
@@ -17,26 +17,24 @@ module flexportal {
         .primaryPalette('green')
         .accentPalette('teal');
     })
-    .config(function($stateProvider: angular.ui.IStateProvider, $urlRouterProvider : angular.ui.IUrlRouterProvider){
-      $urlRouterProvider.otherwise("/");
+    .config(function($stateProvider: angular.ui.IStateProvider, $urlRouterProvider: angular.ui.IUrlRouterProvider) {
+      $urlRouterProvider.otherwise("/main");
 
       $stateProvider
         .state('main', {
           url: "/main",
           templateUrl: "app/partials/main.html",
-          controller: 'MainCtrl'
+          controller: MainCtrl
         })
         .state('sessions', {
-          url: "^/sessions",
-          templateUrl: "app/partials/sessions.html",
-          controller: 'SessionsController',
-          parent: 'main'
+          url: "/sessions",
+          templateUrl: "app/views/sessions/sessions.html",
+          controller: SessionsController
         })
         .state('session', {
-          url: "^/session/:id",
-          templateUrl: "app/partials/session.html",
-          controller: 'SessionController',
-          parent: 'main'
+          url: "/session/:id",
+          templateUrl: "app/views/sessions/session.html",
+          controller: SessionController
         });
     });
 }
