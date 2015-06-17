@@ -61,7 +61,165 @@ module flexportal {
                 {Name: "Steel", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
                 {Name: "Boy", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
                 
-        }];
+        },
+        {
+            Source: {Name: "Vladimir Negacevschi", Status: "Processed", Icon:"done", Quality: 2 },
+            Targets: [
+                {Name: "Vladimir", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vlad", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vladi", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Seemant Rajvanshi", Status: "Proposed", Icon:"speaker_notes", Quality: 3},
+            Targets: [
+                {Name: "See", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Raj", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Ant", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Scott Hanselman", Status: "Reviewed", Icon:"flag", Quality: 4},
+            Targets: [
+                {Name: "Hansel", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Man", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Scooby", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Elliot Fu", Status: "Processed", Icon:"done", Quality: 5},
+            Targets: [
+                {Name: "Fu", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Elliot", Score: 100, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Helen Troy", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Helen", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Iron Man", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Steel", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Boy", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+                
+        },
+        {
+            Source: {Name: "Vladimir Negacevschi", Status: "Processed", Icon:"done", Quality: 2 },
+            Targets: [
+                {Name: "Vladimir", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vlad", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vladi", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Seemant Rajvanshi", Status: "Proposed", Icon:"speaker_notes", Quality: 3},
+            Targets: [
+                {Name: "See", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Raj", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Ant", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Scott Hanselman", Status: "Reviewed", Icon:"flag", Quality: 4},
+            Targets: [
+                {Name: "Hansel", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Man", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Scooby", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Elliot Fu", Status: "Processed", Icon:"done", Quality: 5},
+            Targets: [
+                {Name: "Fu", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Elliot", Score: 100, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Helen Troy", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Helen", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Iron Man", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Steel", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Boy", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+                
+        },
+        {
+            Source: {Name: "Vladimir Negacevschi", Status: "Processed", Icon:"done", Quality: 2 },
+            Targets: [
+                {Name: "Vladimir", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vlad", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vladi", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Seemant Rajvanshi", Status: "Proposed", Icon:"speaker_notes", Quality: 3},
+            Targets: [
+                {Name: "See", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Raj", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Ant", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Scott Hanselman", Status: "Reviewed", Icon:"flag", Quality: 4},
+            Targets: [
+                {Name: "Hansel", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Man", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Scooby", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Elliot Fu", Status: "Processed", Icon:"done", Quality: 5},
+            Targets: [
+                {Name: "Fu", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Elliot", Score: 100, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Helen Troy", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Helen", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Iron Man", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Steel", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Boy", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+                
+        },
+        {
+            Source: {Name: "Vladimir Negacevschi", Status: "Processed", Icon:"done", Quality: 2 },
+            Targets: [
+                {Name: "Vladimir", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vlad", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Vladi", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Seemant Rajvanshi", Status: "Proposed", Icon:"speaker_notes", Quality: 3},
+            Targets: [
+                {Name: "See", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Raj", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Ant", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Scott Hanselman", Status: "Reviewed", Icon:"flag", Quality: 4},
+            Targets: [
+                {Name: "Hansel", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Man", Score: 65, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Scooby", Score: 83, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"} ]
+        },
+        {
+            Source: {Name: "Elliot Fu", Status: "Processed", Icon:"done", Quality: 5},
+            Targets: [
+                {Name: "Fu", Score: 88, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Elliot", Score: 100, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Helen Troy", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Helen", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+        },
+        {
+            Source: {Name: "Iron Man", Status: "Processed", Icon:"done", Quality: 1},
+            Targets: [
+                {Name: "Steel", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"},
+                {Name: "Boy", Score: 95, trId: "020d2294-c4ee-e011-a3a1-00237dec467a", srId: "47673f68-b677-df11-949d-00237dec9650"}]
+                
+        }
+        
+        ];
       var dup = $scope.duplicates;
       
       $scope.duplicates = dup;//dup.concat(dup,dup,dup);
